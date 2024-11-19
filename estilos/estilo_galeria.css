@@ -1,0 +1,59 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}       
+
+.auto_tarjeta {
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#img1:hover img {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+}
+
+#img2:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+#img3:hover img {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+#img4:hover img {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+#img5:hover img {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+.auto_tarjeta img {
+    width: 100%;
+    height: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#imagen {
+    width: 200px;
+    height: auto;
+}

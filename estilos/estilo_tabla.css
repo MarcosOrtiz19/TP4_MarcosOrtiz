@@ -1,0 +1,50 @@
+.tabla {
+    width: 100%;
+    max-width: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla th:hover, .tabla td:hover, .tabla tr:hover {
+    transform: scale(1.05);
+}
+
+
+.tabla thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.tabla th, .tabla td {
+    padding: 10px;
+    border: 1px solid #ddd
+}
+
+.tabla th {
+    background-color: rgb(3, 64, 80);
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #04a1a7;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f6b;
+}

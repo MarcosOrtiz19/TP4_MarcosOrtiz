@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilo_tabla.css">
+    <link rel="stylesheet" href="estilos/estilo_inicio.css">
+    <script src="script3.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>TP4</h1>
+    </header>
+
+    <div class="principal">
+
+        <h1 class="texto_bienvenida"> BIENVENIDO A LA TABLA</h1>
+
+        <div class="botones">
+            <a href="index.html" class="animated_boton">PRINCIPAL</a>
+            <a href="pagina1.html" class="animated_boton">INICIO</a>
+            <a href="pagina2.html" class="animated_boton">GALERIA</a>
+        </div>
+    </div>
+
+    <main>
+        <p>TABLA DE AUTOS</p>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>OPERACIÓN</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>BOTONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MULTIPLICACIÓN</td>
+                    <td>Multiplica 2 números ingresados</td>
+                    <td><button onclick="multiplicar()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>EXPONENTE </td>
+                    <td>Eleva al cuadrado 1 número ingresado</td>
+                    <td><button onclick="exponente()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>RESTA</td>
+                    <td>Resta 2 números ingresados</td>
+                    <td><button onclick="restar()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>DIVISION</td>
+                    <td>Divide 2 numeros ingresados</td>
+                    <td><button onclick="dividir()">Calcular</button></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+    </main>
+    
+    <footer>
+        <p>&copy; DERECHOS RESERVADOS POR MARCOS ORTIZ  - ÑEMBY - 2024</p>
+    </footer>
+
+</body>
+</html>
